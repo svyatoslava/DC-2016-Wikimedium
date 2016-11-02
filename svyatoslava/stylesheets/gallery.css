@@ -1,0 +1,85 @@
+.gallery{
+  position: relative;
+}
+
+.galleryRail {
+  display: flex;
+ transition: all .3s
+}
+
+.galleryRail img {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.galleryRail figure {
+  width: 100%;
+  min-width: 100%;
+}
+
+.galleryRail figure:nth-child(odd){
+  background: grey;
+}
+
+.galleryRail figure:nth-child(even){
+  background: lightgrey;
+
+}
+
+.galleryNav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 51px);
+}
+
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0,0,0,.4)
+}
+
+
+/* Chevron */
+
+.chevron {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  transform: rotate(-45deg);
+  }
+
+  #prev {
+    transform: rotate(-45deg);
+  }
+
+  #next {
+    transform: rotate(135deg);
+  }
+
+
+.galleryNav .disabled {
+  opacity: 0;
+}
+
+.galleryNav div::before,
+.galleryNav div::after {
+  position: absolute;
+  background: black;
+ }
+
+.chevron div:first-child {
+   width: 5px;
+   height: 20px;
+ }
+
+.chevron div:last-child {
+   width: 20px;
+   height: 5px;
+ }
