@@ -3,7 +3,9 @@
 
 @import "layout.css";
 @import "menubar.css";
-@import "sidebar.css";
+
+@import "index.css"
+
 @import "content.css";
 @import "gallery.css";
 @import "responsive.css";

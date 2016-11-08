@@ -5,12 +5,28 @@
  }
 
  @media screen and (max-width: 1020px) {
-   article img {
-     width: 100%;
+   .galleryNav div::before,
+   .galleryNav div::after {
+     background: white;
    }
  }
 
- @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 1070px){
+  article img > img,
+  article img > iframe,
+  .galleryRall img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .galleryRall figure {
+    width: 768px;
+    min-width: 768px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
    body {
      min-width: 320px;
    }

@@ -106,10 +106,12 @@ article img + ul {
    margin-top:-3px;
  }
 
-article h2 + img {
+article h2 + img,
+article h2 + iframe {
    margin-top: 82px;
  }
 
-article h3 + img {
+article h3 + img,
+article h2 + iframe {
    margin-top: 81px;
  }
