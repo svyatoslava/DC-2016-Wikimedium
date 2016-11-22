@@ -41,3 +41,15 @@
      display: none;
    }
  }
+
+ @media screen and (max-width: 1180px ) {
+   .landingWrapper {
+     width: 1180px;
+     min-width: 910;
+   }
+ }
+
+ .maimSection {
+   width: 1180;
+   height: 568;
+ }
