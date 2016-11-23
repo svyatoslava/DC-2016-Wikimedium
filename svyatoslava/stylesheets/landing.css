@@ -1,5 +1,5 @@
 body.landing {
-  background-image: image();
+  background-image: image(..image/index_mockup_ipad.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -108,6 +108,13 @@ body.landing * {
 }
 
 #mockup3 {
+  top: 97px;
+    right: -732px;
+    width: 1348px;
+    height: 779px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    background-image: url(../images/landing/landing-mockup-3.jpg);
 
 }
 
@@ -116,3 +123,23 @@ body.landing * {
     width: 100%;
   }
 }
+
+#mockup3 {
+    top: 72px;
+    right: -414px;
+    width: 960px;
+    height: 555px;
+  }
+
+  .mainSection.center sectiom nav a {
+    margin: 0 10px;
+  }
+
+ .mainSection.center footer {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+ }
+
+ .mainSection.center

@@ -1,0 +1,46 @@
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.white {
+  width: ;
+  background-color: white;
+  border-color: (0,0,0,.2)
+}
+
+.green {
+  background-color: #64f364;
+  background: linear-gradient (to bottom, #64f364,2%,#01a401 95%, #006900 100%);
+  background-color: green;
+  border-color: #00C000;
+}
+
+.small {
+  width: 180px;
+  height: 30px;
+  line-height: 36px;
+}
+
+.large {
+  width: 214px;
+  height: 36px;
+  line-height: 36px;
+
+}
+
+@media screen and (max-width: 1180px) {
+  .small {
+    width: 180px;
+    height: 30px;
+    line-height: 36px;
+  }
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+  }
+
+}
